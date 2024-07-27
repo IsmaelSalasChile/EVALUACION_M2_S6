@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color:  #051B54;
+}
+
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.initial{
+    background-color: #475b8f;
+    color: white;
+    border-radius: 20px;
+}
+
+.card{
+    background-color: #62DAD3;
+}
+
+.card-body{
+    margin-left: 4%;
+}
+
+#sangria{
+    margin: auto;
+}
+
+.second{
+    color: #051B54;
+}
+
+#tercero{
+    background-color: white;
+}

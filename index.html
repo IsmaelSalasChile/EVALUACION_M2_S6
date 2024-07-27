@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>AeroVia Express</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AeroVia Express</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ofertas y destinos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mis viajes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Centro de ayuda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Estado de vuelo</a>
+              </li>
+            </ul>
+              <button class="btn btn-outline-secondary initial" type="submit">Iniciar Sesión</button>
+          </div>
+        </div>
+      </nav>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+                <br>
+              <h2 class="card-title">¡Vacaciones de verano!</h2>
+              <p class="card-text" id="ctxt">Vuela por Chile y Sudamérica con hasta un 40% de descuento.</p>
+              <p class="card-text text-body-secondary">Encuentra paquetes, hoteles, seguros y arriendo de autos en AeroVia Express</p>
+              <a href="#" class="card-link">Compra aquí</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="assets/polynesia.jpg" class="img-fluid rounded-start" alt="Polinesia">
+        </div>
+        </div>
+      </div>
+<div class="container-fluid">
+  <div class="card shadow" id="tercero">
+    <div class="card-body" id="sangria">
+    <form action="">
+        <div class="btn-group" role="group" aria-label="First group">
+          <button type="button" class="btn btn-outline-dark">Vuelos</button>
+          <button type="button" class="btn btn-outline-dark">Paquetes</button>
+          <button type="button" class="btn btn-outline-dark">Hoteles</button>
+          <button type="button" class="btn btn-outline-dark">Autos</button>
+          <button type="button" class="btn btn-outline-dark">Seguros</button>
+          <button type="button" class="btn btn-outline-dark">Upgrade</button>
+        </div>
+        <br>
+        <div class="btn-group second" role="group">
+          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Ida y Vuelta
+          </button>
+          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Economy
+          </button>
+          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            1 pasajero
+          </button>
+        </div>
+        <br>
+        <div class="container-fluid">
+          <div class="row col-rows-12 g-1">
+              <div class="col"><input type="text" placeholder="Origen"></div>
+              <div class="col"><input type="text" placeholder="Destino"></div>
+              <div class="col"><input type="text" value="Fecha ida" disabled readonly></div>
+              <div class="col"><input type="date"></div>
+              <div class="col"><input type="text" value="Fecha vuelta" disabled readonly></div>
+              <div class="col"><input type="date"></div>
+              <div><button class="btn btn-danger" type="button">Buscar</button></div>
+          </div>
+        </div>
+    </form>
+    </div>
+  </div> 
+</div>
+</body>
+</html>
